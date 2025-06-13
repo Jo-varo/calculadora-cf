@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: saludar
         uses: jp-varo/js-action-test-jvr@v1.0
-          with:
-            who-to-greet: 'Jorge'
+        with:
+          who-to-greet: 'Jorge'
     
       - name: tener copia local del repo
         uses: actions/checkout@v4.2.2
