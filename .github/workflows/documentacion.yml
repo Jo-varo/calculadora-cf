@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - name: saludar
-        uses: jp-varo/js-action-test-jvr@v1.0
+        uses: Jo-varo/test-js-action@v1.0
         with:
           who-to-greet: 'Jorge'
     
